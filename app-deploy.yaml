@@ -1,6 +1,8 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
+  name: appsody-sample-springboot
+  namespace: va-kabanero
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
