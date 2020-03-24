@@ -1,0 +1,2 @@
+project-name: spring-boot-kabanero-3-11
+stack: kabanero/java-spring-boot2:0.3
