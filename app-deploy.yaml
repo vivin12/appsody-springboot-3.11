@@ -1,8 +1,6 @@
 apiVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
-  name: appsody-sample-springboot
-  namespace: va-kabanero
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
@@ -53,6 +51,7 @@ metadata:
     stack.appsody.dev/id: java-spring-boot2
     stack.appsody.dev/version: 0.3.24
   name: spring-boot-kabanero-3-11
+  namespace: va-kabanero
 spec:
   applicationImage: dev.local/spring-boot-kabanero-3-11
   createKnativeService: false
